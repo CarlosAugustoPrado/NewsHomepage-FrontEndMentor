@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon-32x32.png">
+
+  <link rel="stylesheet" href="./css/plugins.css">
+  <link rel="stylesheet" href="./css/main.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | News homepage</title>  
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="logo">
+        <img src="/img/logo.svg" alt="">
+      </div>
+      <nav>
+        <ul>
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#">New</a>
+          </li>
+          <li>
+            <a href="#">Popular</a>
+          </li>
+          <li>
+            <a href="#">Trending</a>
+          </li>
+          <li>
+            <a href="#">Categories</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="open-menu-mobile">
+        <button id="btn-open-menu-mobile">
+          <img src="/img/icon-menu.svg" alt="">
+        </button>        
+      </div>
+    </div>
+    <div id="overlay"></div>
+    <div class="menu-mobile closed" id="js-menu-mobile">            
+      <button id="btn-close-menu-mobile" class="btn-close-menu-mobile">
+        <img src="/img/icon-menu-close.svg" alt="">        
+      </button>
+      <nav>
+        <ul>
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#">New</a>
+          </li>
+          <li>
+            <a href="#">Popular</a>
+          </li>
+          <li>
+            <a href="#">Trending</a>
+          </li>
+          <li>
+            <a href="#">Categories</a>
+          </li>
+        </ul>
+
+    </div>    
+  </header>
+
+  <section class="s-hero">
+    <div class="container">
+      <div class="main-area">
+        <div class="image">
+          <img src="/img/image-web-3-desktop.jpg" alt="">
+        </div>
+        <div class="text-area">
+          <h1>The Bright Future of Web 3.0?</h1>
+          <div class="read-more">
+            <p>We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise? </p>
+            <button>read more</button>
+          </div>
+        </div>
+      </div>
+      <div class="new">
+        <h2>New</h2>
+        <ul>
+          <li>
+            <a href="">Hydrogen VS Electric Cars</a>
+            <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+          </li>
+          <li>
+            <a href="">The Downsides of AI Artistry</a>            
+            <p>What are the possible adverse effects of on-demand AI image generation?</p>
+          </li>
+          <li>
+            <a href="">Is VC Funding Drying Up?</a>            
+            <p>Private funding by VC firms is down 50% YOY. We take a look at what it means.</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <secion class="s-posts">
+    <div class="container">
+      <div class="card">
+        <div class="image">
+          <img src="/img/image-retro-pcs.jpg" alt="">
+        </div>
+        <div class="description">
+          <h3>01</h3>
+          <a href="">Reviving Retro PCs</a>
+          <p>What happens when old PCs are given mordern upgrades?</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="image">
+          <img src="/img/image-top-laptops.jpg" alt="">
+        </div>
+        <div class="description">
+          <h3>02</h3>
+          <a href="">Top 10 laptops of 2022</a>
+          <p>Our best picks for various needs and budgets.</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="image">
+          <img src="/img/image-gaming-growth.jpg" alt="">
+        </div>
+        <div class="description">
+          <h3>03</h3>
+          <a href="">The Growth of Gaming</a>
+          <p>How the pandemic have sparked fresh opportunities.</p>
+        </div>
+      </div>
+    </div>
+  </secion>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Dev Carlos Augusto Prado</a>.
+  </div>
+  
+  <script src="js/plugins.js"></script>
+  <script src="js/all.js"></script>
+</body>
+</html>
