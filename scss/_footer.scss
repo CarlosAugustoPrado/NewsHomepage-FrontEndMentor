@@ -1,0 +1,25 @@
+footer {
+  margin-top: 4rem;
+  .container {
+    .attribution {
+      display: flex;
+      justify-content: flex-end;
+      span {
+        font-size: 1.3rem;
+        color: $very-dark-blue;
+        &:not(:last-child) {
+          margin-right: 2rem;
+        }
+        a {
+          color: $very-dark-blue;
+          text-decoration: underline;
+          transition: color .3s;
+          &:hover {
+            color: $dark-grayish-blue;
+          }
+        }
+      }
+      
+    }
+  }
+}

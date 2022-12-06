@@ -137,6 +137,34 @@ header .menu-mobile.closed {
   }
 }
 
+footer {
+  margin-top: 4rem;
+}
+footer .container .attribution {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+footer .container .attribution span {
+  font-size: 1.3rem;
+  color: #00001a;
+}
+footer .container .attribution span:not(:last-child) {
+  margin-right: 2rem;
+}
+footer .container .attribution span a {
+  color: #00001a;
+  text-decoration: underline;
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
+}
+footer .container .attribution span a:hover {
+  color: #5d5f79;
+}
+
 .s-hero {
   margin-bottom: 8rem;
 }
